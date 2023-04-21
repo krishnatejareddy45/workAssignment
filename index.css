@@ -1,0 +1,265 @@
+.main-container{
+    background-color: #ed9587;
+    background-size: cover;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    font-size:50px;
+    color:#03278a
+}
+.icon-circle{
+    border-style: solid;
+    border-width: 4px;
+    border-color:#03278a;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90px;
+    height:90px;
+    
+}
+.icon-text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:200px;
+    padding:10px;
+   
+}
+
+.icon-text-fourth{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:80px;
+    padding:10px;
+    margin-right: 20px;
+}
+
+
+
+
+.text{
+    color:#03278a;
+}
+.heading-text{ 
+    width:335px;
+    margin-left:0px;
+    padding:10px;
+    border-right-style: solid;
+    border-right-width:4px;
+    border-color: #03278a;
+}
+
+.third-width{
+    width:750px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-color: #03278a;
+    
+}
+
+
+
+.first-row{
+    display:flex;
+   
+}
+.address-text{
+    padding:10px;
+   
+    padding-left: 20px;
+    width:335px;
+}
+.address-text p {
+    color:#03278a
+}
+.date-text{
+    display:flex;
+}
+.second-row{
+    display:flex;
+}
+.date-container{
+    padding-left:24px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-color: #03278a;
+    width:750px;
+}
+.second-row p{
+ color:#03278a;
+}
+.dot-container{
+    display: flex;
+    margin-top:0px;
+}
+.dots{
+    
+    margin-top:18px;
+}
+.third-container{
+    display:flex;
+}
+.dot-main{
+    margin-left:0px;
+    border-color: #03278a;
+    border-right-style: solid;
+    border-right-width:4px;
+    padding-left:10px;
+    padding-right:0px;
+    width:335px;
+    margin-left:35px;
+}
+
+.third-last{
+   
+    width:335px;
+    padding-left:10px;
+}
+.dot-container p{
+    color: #03278a;
+}
+.third-last p{
+    color:#03278a
+}
+.dot-container i{
+    color:#03278a
+}
+.icon-bg{
+    font-size:50px;
+    color:#ed9587;
+}
+
+
+
+.circle-bg{
+    background-color: #03278a;
+}
+.fourth-icon-container{
+    display:flex;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-color: #03278a;
+   justify-content: center;
+   margin-left:29px;
+   width:750px;
+}
+.fourth-container{
+    display:flex;
+    
+    
+}
+.fifth-container{
+    display: flex;
+}
+.date-text p{
+    color: #03278a;
+}
+
+.fifth-date-text{
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-color: #03278a;
+    width:710px;
+    padding-left:20px;
+    margin-left:24px;
+}
+.heading-address{
+    display: flex;
+}
+
+.ui{
+    margin-left:120px;
+}
+.growth{
+    margin-left: 45px;
+}
+
+.typo{
+    margin-left:88px;
+}
+
+.pro{
+    margin-left:50px;
+}
+.pri{
+    margin-left:80px
+}
+
+@media (max-width:768px){
+    .ui{
+        margin-left:72px;
+    }
+    .pri{
+        margin-left:41px
+    }
+    .growth{
+        margin-left: 0px;
+    }
+    .typo{
+        margin-left:40px;
+    }
+    .pro{
+        margin-left:15px;
+    }
+    
+    .first-row{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading-address{
+        display: flex;
+    }
+    .second-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .third-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourth-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fifth-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading-text{
+        width:200px;
+    }
+    .third-width{
+        width:400px;
+    }
+    .address-text{
+        width:200px;
+    }
+    .dot-main{
+        width:300px;
+    }
+    
+    .dot-container div i{
+        font-size:6px;
+    }
+    .fifth-date-text{
+        width:400px;
+    }
+    .fourth-icon-container{
+        width:400px;
+    }
+    .date-container{
+        width:400px;
+    }
+}
